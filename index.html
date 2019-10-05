@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <section class="form">
+        <!-- first form begins -->
+        <div class="form1">
+            <h2>Add a Product</h2>
+            <form action="">
+                <p>Product Name</p>
+                <input type="text" placeholder="Apples">
+                <p>Price</p>
+                <input type="number" placeholder="0.00">
+                <p>Category</p>
+                <select name="Groceries" id="Category" >
+                    <option selected>Groceries</option>
+                    <option value="Electronics">clothes</option>
+                    <option value="Electronics">Electronics</option>
+                </select>
+                <p>Quantity</p>
+                <input type="number" placeholder="20">
+            </form>
+            <button><a href="#">Create</a></button>
+        </div>
+        <!-- first form ends -->
+
+        <!-- second form begins -->
+        <div class="form2">
+            <h2>Sign in</h2>
+            <form action="">
+                <p>Email</p>
+                <input type="email" placeholder="doe1234@gmail.com" >
+                <p>Password</p>
+                <input type="password" placeholder="Enter Password">
+            </form>
+            <button><a href="#">Sign in</a></button>
+        </div>
+        <!-- second form ends -->
+
+        <!-- third form begins -->
+        <div class="form3">
+            <h2>Sign Up</h2>
+            <form action="">
+                <p>First Name</p>
+                <input type="text" placeholder="John">
+                <p>Last Name</p>
+                <input type="text" placeholder="Doe">
+                <p>Password</p>
+                <input type="password" placeholder="Enter Password">
+                <p>Gender</p>
+                <select name="Male" id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <p>Date of Birth</p>
+                <input onfocus="(this.type='date')" placeholder="02/05/16">
+                </select>
+            </form>
+            <button><a href="#">Register</a></button>
+        </div>
+        <!-- third form ends -->
+    </section>
+</body>
+</html>
